@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+
+function sayHello(who){
+
+document.write("Hello, "+ who);
+}
+        </script>
+    </head>
+    <body>
+        <script>
+        document.write("Hello world");
+        
+        document.write("<br>");
+        //This is comment
+
+        var mine;
+        mine=5;
+
+        //operators
+        var words="This is ";
+        var morewords="a sentense";
+
+        var sentens = words + morewords
+
+        document.write(sentens);
+        document.write("<br>");
+//adding  numbers
+var num1;
+var num2;
+var total;
+
+num1=10;
+num2= 50;
+total=num1+ num2;
+
+document.write(total);
+document.write("<br>");
+
+//strings
+
+var alpha ="ABCDEFGh";
+var length = alpha.length;
+
+document.write(length);
+document.write("<br>");
+
+//methods
+var result = alpha.substring(0,6);
+document.write(result);
+document.write("<br>");
+
+//Arrays
+
+var a = new Array(7);
+a[0]= "cat";
+a[1]= "dog";
+a[2]= "cow";
+a[3] = "chicken";
+a[4]= 200;
+a[5]= false;
+a[6]= "hen";
+
+document.write(a[1]);
+document.write("<br>");
+
+//defining functions
+sayHello();
+document.write("<br>");
+sayHello("Maureen");
+document.write("<br>");
+sayHello("Mwaniki")
+document.write("<br>");
+
+//flow control statements
+var a =100;
+if(a <= 10){
+    alert(a)
+}else{
+    alert("The condition was false");
+}
+//Loops
+
+for(i= 0; i<=5;i++){
+    document.write("This is iteration" + i + "<br>");
+}
+
+        </script>
+    </body>
+</html>
